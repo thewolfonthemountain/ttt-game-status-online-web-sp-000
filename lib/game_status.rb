@@ -33,3 +33,9 @@ end
 def full?(board)
   board.none?{|space| space == " "}
 end
+
+def draw?(board)
+  if won?(board) == false && full?(board) == false
+  end
+end
+

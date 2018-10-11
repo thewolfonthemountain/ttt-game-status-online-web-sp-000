@@ -20,6 +20,6 @@ def won?(board)
     if board[win_combination[0]] == board[win_combination[1]] && board[win_combination[1]] == board[win_combination[2]]
       then wincombo = win_combination
     end
-    wincombo
   end
+  wincombo  
 end

@@ -43,5 +43,6 @@ won?(board) || draw?(board)
 end
 
 def winner(board)
-board[win?(board)[0]]
+win_array = won?(board)
+board[win_array[0]]
 end

@@ -41,3 +41,7 @@ end
 def over?(board)
 won?(board) || draw?(board)
 end
+
+def winner?
+  if won?(board) == true then return board[win?(board)[0]]
+  end

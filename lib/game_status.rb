@@ -29,7 +29,7 @@ def won?(board)
   false
 end
 
-space = " "
+
 def full?(board)
-  board.any?{|space| space == " "}
+  board.?{|space| space != " "}
 end

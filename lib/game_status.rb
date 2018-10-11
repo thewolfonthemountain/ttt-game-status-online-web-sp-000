@@ -31,5 +31,5 @@ end
 
 
 def full?(board)
-  board.?{|space| space != " "}
+  board.any?{|space| space != " "}
 end

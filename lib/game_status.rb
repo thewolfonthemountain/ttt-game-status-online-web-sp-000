@@ -43,6 +43,8 @@ won?(board) || draw?(board)
 end
 
 def winner(board)
+if won?(board) == false then nil else
 win_array = won?(board)
 board[win_array[0]]
+end
 end

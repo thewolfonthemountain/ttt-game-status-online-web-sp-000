@@ -44,7 +44,7 @@ end
 
 def winner(board)
 win_array = won?(board)
-if draw?(board) = true then "nil"
+if draw?(board) = true then return "nil"
 else
   board[win_array[0]]
 end

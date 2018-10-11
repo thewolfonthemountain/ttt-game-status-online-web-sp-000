@@ -48,4 +48,3 @@ if draw?(board) = true then return "nil"
 else
   board[win_array[0]]
 end
-end
